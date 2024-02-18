@@ -1,0 +1,32 @@
+.image-frame {
+  display: flex;
+  align-items: flex-start; /* Align items at the start of the cross axis (top) */
+}
+
+.axes-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.y-axis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space evenly between items */
+  height: 100%; /* Fill the available height */
+}
+
+.x-axis {
+  display: flex;
+  justify-content: space-between; /* Space evenly between items */
+  width: calc(100% - 10px); /* Adjust width considering the margin */
+}
+
+.image-container {
+  /* Adjust width and height of the image container */
+  width: 300px;
+  height: 200px;
+  /* Additional styles for border, padding, etc. */
+  border: 1px solid #ccc;
+  padding: 5px;
+}
